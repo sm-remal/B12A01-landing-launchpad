@@ -2,8 +2,9 @@
 
 /* font-family: "Inter", sans-serif;  */
 /* font-family: "Raleway", sans-serif;  */
-
-
+body{
+    background-color: rgba(208, 230, 248, 0.169);
+}
 
 /* Shared Style  */
 .primary-btn{
@@ -133,4 +134,74 @@
     font-size: 20px;
     color: #8987A1;
     margin-top: -60px;
+}
+
+
+
+/* Challenges  */
+.card-section h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    width: 1140px;
+    height: 49px;
+    margin: 137px auto ;
+    text-align: center;
+    
+}
+
+
+.container-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.feedback-section{
+    background-color: white;
+    padding: 18px;
+    box-shadow: 5px 5px 5px rgba(62, 57, 57, 0.267);
+    margin: 0 15px;
+    border-radius: 16px;
+}
+
+/* .................................... */
+
+.star-icon{  
+    display: flex;  
+}
+.icon-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.icon-title p{
+    width: 270px;
+    height: 44px;
+    color: #3e3e43;
+}
+
+
+/* .........................................  */
+.icon-section{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.name-date{
+    margin-left: 15px;
+}
+
+
+
+.name-date h5{
+    font-family: "Raleway", sans-serif;
+    color: rgba(117, 117, 117, 1);
+}
+.name-date p{
+    font-family: "Raleway", sans-serif;
+    color: rgba(179, 179, 179, 1);
+    font-size: 15px;
+    margin-top: -14px;
 }
