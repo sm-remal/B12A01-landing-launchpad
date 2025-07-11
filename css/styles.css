@@ -42,6 +42,11 @@ body{
     width: 132px;
     height: 48px;
 }
+.nav a button:hover{
+    background-color: #ec8129b4;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .banner{
     margin: 0 auto;
@@ -66,7 +71,11 @@ body{
     width: 174px;
     height: 48px;
 }
-
+.banner a button:hover{
+    background-color: #ec8129b4;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 /* Main Style  */
@@ -93,6 +102,11 @@ body{
 .action-title a button{
     width: 230px;
     height: 48px;
+}
+.action-title a button:hover{
+    background-color: #ec8129b4;
+    font-size: 20px;
+    font-weight: 600;
 }
 .action-img img{
     width: 403px;
@@ -204,4 +218,53 @@ body{
     color: rgba(179, 179, 179, 1);
     font-size: 15px;
     margin-top: -14px;
+}
+/* ....................................  */
+
+/* Touch Section  */
+
+.touch-div{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    margin: 0 auto;
+}
+
+.touch-title h1{
+    font-size: 90px;
+    font-weight: 600;
+    width: 528px;
+    height: 232px;
+}
+.touch-form input[type="email"], input[type="text"], textarea{
+    font-size: 20px;
+    width: 240px;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    padding: 20px 270px 20px 35px;
+    border: none;
+    margin-bottom: 22px;
+}
+.touch-form textarea{
+    height: 120px;
+}
+.touch-form label{
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+.touch-form a button{
+    background-color: #4E47FF;
+    color: white;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.touch-form a button:hover{
+    background-color: #ec8129b4;
+    font-size: 20px;
+    font-weight: 600;
 }
